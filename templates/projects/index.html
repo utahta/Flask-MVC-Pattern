@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>プロジェクト</title>
+</head>
+<body>
+<h2>リスト表示</h2>
+<ul>
+{% for entry in model.get_entries() %}
+<li class='entry'>{{ entry.title }}, {{ entry.description }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
