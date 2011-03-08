@@ -9,6 +9,7 @@ Pythonと依存ライブラリのインストール::
   pythonbrew switch 2.6.6
   pip install Flask
   pip install Flask-WTF
+  pip install SQLAlchemy
   
 Flas-MVC-Sampleのダウンロードとデータベース初期化::
   
